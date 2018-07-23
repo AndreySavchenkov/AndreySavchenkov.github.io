@@ -1,4 +1,18 @@
-p {
-	color: red;
+.my_name {
+	font-size: 30px;
+	color: #CC6633;
+	font-style: italic;
+}
+
+.header_name {
+	font-style: italic;
+	color: #CC6633;
 	font-size: 24px;
+}
+
+.header {
+	background-color: #FF99FF;
+	height: 100px;
+	padding: 20px 20px;
+	margin: 0px 0px;
 }
