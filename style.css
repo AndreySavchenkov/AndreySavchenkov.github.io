@@ -7,6 +7,11 @@ body {
 	padding: 0;
 }
 
+.face {
+	max-width: 350px;
+	max-height: 150px;
+}
+
 .my_name {
 	font-size: 30px;
 	color: #662d1a;
@@ -26,6 +31,8 @@ body {
 	height: 100px;
 	padding: 20px 20px;
 	margin: 0px 0px;
+	display: flex;
+	justify-content: space-around;
 }
 
 .section {
@@ -45,4 +52,6 @@ body {
 	align-items: flex-start;
 	margin-top: 15px;
 	background-color: #CCCC99
-	}
+}
+
+
