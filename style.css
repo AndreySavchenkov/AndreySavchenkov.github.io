@@ -1,57 +1,43 @@
-body {
-	background-color: #c8a569;
-	font-style: normal;
-	font-family: sans-serif;
-	color: #CCCC99;
+
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
 	margin: 0;
-	padding: 0;
-}
-
-.face {
-	max-width: 350px;
-	max-height: 150px;
-}
-
-.my_name {
-	font-size: 30px;
-	color: #662d1a;
-	font-style: italic;
-	text-shadow: 1px 1px 1px black, 0 0 1em white;
-}
-
-.header_name {
-	font-style: italic;
-	color: #662d1a;
-	font-size: 24px;
-	text-shadow: 1px 1px 1px black, 0 0 1em white;
-}
-
-.header {
-	background-color: #eadab0;
-	height: 100px;
-	padding: 20px 20px;
-	margin: 0px 0px;
-	display: flex;
-	justify-content: space-around;
-}
-
-.section {
-	border: 1px solid #FFFFCC;
-	border-radius: 20px;
-	width: 40%;
-	height: auto;
-	padding: 15px;
-	background-color: #af4324;
-	min-height: 350px;
 }
 
 .container {
-	height: 500px;
-	display: flex;
-	justify-content: space-around;
-	align-items: flex-start;
-	margin-top: 15px;
-	background-color: #CCCC99
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
+/* Header */
+
+.header {
+	margin: 0 auto;
+	align-content: center; 
+    width: 100%;
+    height: 100vh;
+	}
+
+
+}
+
+h1 {
+	font-family: 'Swanky and Moo Moo', cursive;
+	font-size: 72px;
+	
+}
+
+h2 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 40px;
+}
+
 
 
