@@ -219,9 +219,11 @@ hr {
 }
 
 .section--devices {
+    margin-bottom: 40px;
     background: url('../images/design/design-background.jpg') center no-repeat;
     background-size: cover;
     padding-bottom: 0;
+
 }
 
 
@@ -398,4 +400,24 @@ hr {
     bottom: -80px;
     right: 0;
     z-index: 1;
+}
+
+/*Wedo*/
+
+.wedo {
+    display: flex;
+}
+
+.wedo__item {
+    width:50;
+} 
+
+/*Accordion*/
+
+.accordion__item {
+    border: 1px solid #e5e5e5;
+}
+
+.accordion__header {
+    border: 1px solid #e5e5e5;
 }
