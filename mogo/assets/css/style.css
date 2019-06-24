@@ -409,7 +409,7 @@ hr {
 }
 
 .wedo__item {
-    width:50;
+    width: 50%;
 } 
 
 /*Accordion*/
@@ -419,5 +419,31 @@ hr {
 }
 
 .accordion__header {
-    border: 1px solid #e5e5e5;
+    position: relative;
+    padding: 15px 20px 15px 60px;
+    border-bottom: 1px solid #e5e5e5;
+}    
+
+.accordion__icon {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    z-index: 1;
+    transform: translateY(-50%);
 }
+
+.accordion__content {
+    padding: 15px 20px;
+
+    font-size: 15px;
+    color: #999;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.accordion__title {
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+}
+
