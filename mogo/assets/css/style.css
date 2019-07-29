@@ -483,4 +483,46 @@ hr {
     text-transform: uppercase;
 }
 
- 
+ /* Reviews */
+
+ .reviews {
+     padding: 0 110px;
+ }
+
+ .reviews__item {
+    padding-left: 205px;
+    position: relative;
+ }
+
+ .reviews__photo {
+     border: 2px solid #95e1d3;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 1;
+ }
+
+ .reviews__text {
+     margin-bottom: 15px;
+     font-style: 24px;
+     font-style: italic;
+     font-weight: 300;
+     color: #999;
+ }
+
+ .reviews__author {
+     font-style: 24px;
+     color: black;
+     font-family: 'Kaushan Script', cursive;
+ }
+
+ .reviews__author:before {
+     content: "";
+     display: inline-block;
+     vertical-align: middle;
+     width: 60px;
+     height: 3px;
+     margin-right: 10px;
+     background-color: #f38181;
+
+ }
