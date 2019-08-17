@@ -22,10 +22,9 @@ h1, h2, h3, h4, h5, h6 {
 .header {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
 	height: 100vh;
-	
 	align-items: center;
+	align-content: space-around;
 }
 
 img {
@@ -45,10 +44,44 @@ h2 {
 	font-size: 40px;
 }
 
-.social {
+.header--mySocial {
 	display: flex;
 	align-content: space-around;
 }
 
+.skills {
+	display: flex;
+	justify-content: space-around;
+	height: 300px;
+}
 
+ul {
+	list-style: none;
+	font-family: 'Swanky and Moo', cursive;
+	font-size: 18px;
+}
 
+.projects {
+	padding-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: space-around;
+	
+}
+
+.h2--project {
+	padding-bottom: 20px;
+}
+
+.header--myName {
+	height: 33vh;
+}
+
+.header--myFoto {
+	height: 33vh;
+}
+
+.header--mySocial {
+	height: 33vh;
+}
