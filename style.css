@@ -23,8 +23,8 @@ h1, h2, h3, h4, h5, h6 {
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
-	align-items: center;
-	align-content: space-around;
+	justify-content: space-around;
+	
 }
 
 img {
@@ -42,6 +42,7 @@ h1 {
 h2 {
 	font-family: 'Kaushan Script', cursive;
 	font-size: 40px;
+	align-content: center;
 }
 
 .header--mySocial {
@@ -70,18 +71,15 @@ ul {
 	
 }
 
-.h2--project {
-	padding-bottom: 20px;
-}
-
 .header--myName {
-	height: 33vh;
+	align-self: center;
+	
 }
 
-.header--myFoto {
-	height: 33vh;
+.header--myFoto{
+	align-self: center;
 }
 
 .header--mySocial {
-	height: 33vh;
+	align-self: center;
 }
