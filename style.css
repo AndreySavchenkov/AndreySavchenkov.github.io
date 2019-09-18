@@ -71,6 +71,18 @@ ul {
 	
 }
 
+a.projects-link {
+	text-decoration: none;
+	font-family: 'Swanky and Moo', cursive;
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+a.projects-link:hover {
+	text-decoration: underline;
+}
+
+
 .header--myName {
 	align-self: center;
 	
