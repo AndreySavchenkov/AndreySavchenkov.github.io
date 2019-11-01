@@ -95,3 +95,7 @@ a.projects-link:hover {
 .header--mySocial {
 	align-self: center;
 }
+
+.my_name {
+	text-shadow: 2px 2px 5px red;
+}
