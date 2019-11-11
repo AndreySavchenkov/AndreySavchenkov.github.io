@@ -108,3 +108,26 @@ a {
     background-color: transparent;
     border: 2px solid #000000;
 }
+
+.apointment-item input:focus {
+    border-color: #663d15;
+}
+
+.main-footer {
+    color: #ffffff;
+
+    background-color: #212121;
+    background-image: url("../img/pattern-dark.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+
+.footer-contacts a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+    text-decoration: none;
+}
