@@ -197,3 +197,17 @@ a {
 .restore:focus {
     text-decoration: none;
 }
+
+/* shop style */
+
+.breadcumbs {
+    list-style: none;
+}
+
+.breadcumbs a{
+    color: black;
+}
+
+.shop-body {
+    background-color: #f8f3f0;
+}
