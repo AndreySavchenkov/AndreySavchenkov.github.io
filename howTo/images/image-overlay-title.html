@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Overlay Title</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        /*Container needed to position the overlay. Adjust the width as needed*/
+        .container {
+            position: relative;
+            width: 50%;
+            max-width: 300px;
+        }
+
+        /*Make the image to responsive*/
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        /*The overlay effect - layson top the container and over the image*/
+        .overlay {
+            position: relative;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            background: (0, 0, 0, 0.5); /*Black see-through*/
+            color: #f1f1f1;
+            width: 100%;
+            transition: 0.5s ease;
+            opacity: 0;
+            color: white;
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /*When you mouse over the container, fade in the overlay title*/
+        .container:hover .overlay {
+            opacity: 1;
+        }
+
+        p   {
+            font-size: 26px;
+            margin-left: 75px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <p>Наведи на фото.</p>
+        <img src="../images/avatar.jpg" alt="Avatar" class="image">
+        <div class="overlay">Меня зовут Андрей</div>
+    </div>
+
+</body>
+</html>
