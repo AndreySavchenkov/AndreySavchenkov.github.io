@@ -359,3 +359,34 @@ a {
 .product-info ul {
     list-style: none;
 }
+
+/* ----- Сеточные стили ------ */
+
+html,
+body {
+    min-width: 1122px;
+    min-height: 1750px;
+}
+
+.main-header {
+    margin-bottom: 75px;
+}
+
+.main-header-logo {
+    width: 368px;
+    height: 153px;
+}
+
+.site-navigation {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.user-navigation {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
