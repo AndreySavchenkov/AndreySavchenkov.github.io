@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Overlay Icon</title>
+
+    <style>
+
+        /*Container needed to positon the overlay. Adjust the width as needed*/
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        /*Make the image to responsive*/
+        .image {
+            width: 100%;
+            height: auto;
+        }
+
+        /*The overlay effect (full height and width) - lays on top of the container and over the image*/
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: 0.3s ease;
+            background-color: red;
+        }
+
+        /*When you mouse over the container, fade in the overlay icon*/
+        .container:hover .overlay {
+            opacity: 1;
+        }
+
+        /*The icon inside the overly i positioned in the middle vertically and horizontally*/
+        .icon {
+            color: white;
+            font-size: 100px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        /*When you move the mouse over the icon, change color*/
+        .fa-user:hover {
+            color: #eee;
+        }
+
+        p {
+            font-size: 26px;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <!--Add icon library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <p>Наведи курсор на иконку.</p>
+
+    <div class="container">
+        <img src="avatar.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+            <a href="#" class="icon" title="User Profile">
+                <i class="fa fa-user"></i>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
