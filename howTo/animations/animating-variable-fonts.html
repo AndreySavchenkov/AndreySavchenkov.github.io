@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animating Variable Fonts</title>
+
+    <style>
+        /* Step 1: Make the font request! Grab your font from Google fonts, make sure it’s a variable font. Uses the new css2 endpoint. Find your chosen fonts full weight range, seperate values with .. and don’t forget to prefix with :wght@ syntax  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900');
+
+/* Step 2: Add the font wherever you want to use it */
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+}
+
+/* Step 3: Set up keyframes to interpolate through variable weights */
+@keyframes animate-type {
+  60% {
+    font-variation-settings: 'wght' 900;
+  }
+  
+  100% {
+    font-variation-settings: 'wght' 100;
+  }
+}
+
+/* Step 4: apply the animation to our elements, make it infinite, scale up and down */
+h2 {
+   font-weight: 100;
+   font-variation-settings: 'wght' 100;
+   animation: animate-type 4000ms infinite forwards;
+}
+
+/* Step 5: style it how you want! */
+body {
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 1080px) {
+  body {
+    font-size: 64px;
+  }
+}
+
+h2 span > span:nth-child(odd) {
+  color: #542bff;
+}
+    </style>
+
+</head>
+<body>
+    <h2 aria-label="Work from home!">
+        <span aria-hidden="true">
+          <span>привет</span>
+          <span>всем</span>
+          <span>=)</span>
+        </span>
+      </h2>
+</body>
+</html>
