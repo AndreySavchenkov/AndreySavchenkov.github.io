@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bounce Radio</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-size: 36px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <form>
+        <div class="form-check">
+            <input type="radio" name="gender" class="form-check-imput bounce" id="male"/>
+            <label for="male" class="form-check-label">Male</label>
+        </div>
+
+        <div class="form-check">
+            <input type="radio" name="gender" class="form-check-input bounce" id="female"/>
+            <label class="form-check-label" for="female">Female</label>
+        </div>
+
+        <div class="form-check">
+            <input type="radio" name="gender" class="form-check-input bounce" id="disabled" disabled/>
+            <label class="form-check-label" for="disabled">Disabled</label>
+        </div>
+
+        <div class="form-check">
+            <input type="radio" name="gender" class="form-check-input bounce" id="disabled-cheked" disabled checked />
+            <label class="form-check-label" for="disabled-checked">Default</label>
+        </div>
+    </form>
+
+</body>
+</html>
