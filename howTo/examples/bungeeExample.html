@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вертикальный текст</title>
+
+    <style>
+        h1 {
+            text-transform: uppercase; /*все символы текста становятся прописными*/
+            margin: auto; /*размер отступов будет автоматически расчитан браузером*/
+            font-size: 80px;
+            color: rgba(231, 27, 38);
+            writing-mode: vertical-lr; /*задает направление текста по вертикали сверху вниз и слева направо*/
+            margin: 0;
+            padding-top: 5px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            background-color: #ffdd40;
+            text-orientation: upright; /*в вертикальном режиме символы размещаются естественным путем друг под другом*/
+        }
+
+        html {
+            font-family: 'Bungee', cursive;
+        }
+
+        body {
+            display: grid;
+            grid-template-columns: repeat(5, min-content);
+            gap: 16px; /*устанавливаю промежутки между колонками*/
+            align-items: start;
+        }
+
+        h1:nth-of-type(2n) {
+            color: #ffdd40;
+            background-color: rgb(231, 27, 38);
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>motel</h1>
+    <h1>liquer</h1>
+    <h1>cinema</h1>
+    <h1>diner</h1>
+    <h1>teacher</h1>
+    
+</body>
+</html>
