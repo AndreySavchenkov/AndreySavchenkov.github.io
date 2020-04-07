@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+
+.item {
+    display: flex;
+    width: 1002px;
+    height: 400px;
+    margin: 32px;
+    background: #F6F7FA;
+    border-radius: 16px;
+}
+
+img {
+    width: 240px;
+    height: 240px;
+}
