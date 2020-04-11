@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://schoolsw3.com/w3css/3/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <title>Site Example w3</title>
+</head>
+<body>
+    
+    <nav class="w3-bar w3-black">
+        <a href="#home" class="w3-button w3-bar-item">Главная</a>
+        <a href="#band" class="w3-button w3-bar-item">Группа</a>
+        <a href="#tour" class="w3-button w3-bar-item">Тур</a>
+        <a href="#contact" class="w3-button w3-bar-item">Контакт</a>
+    </nav>
+    <section>
+        <img src="img_la.jpg" alt="" class="mySlides" style="width:100%">
+        <img src="img_ny.jpg" alt="" class="mySlides" style="width:100%">
+        <img src="img_chicago.jpg" alt="" class="mySlides" style="width:100%">
+    </section>
+    <section class="w3-container w3-center" style="max-width:600px">
+        <h2 class="w3-wide">THE BAND</h2>
+        <p class="w3-opacity"><i>Мы любим музыку</i></p>
+    </section>
+    <section class="w3-container w3-content w3-center" style="max-width:600px">
+        <p class="w3-justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam rem eius dolorem corporis voluptate architecto repellendus 
+            reiciendis dignissimos esse nemo dolorum, adipisci ut molestias error porro maiores ipsam, mollitia distinctio.
+        </p>
+    </section>
+    <section class="w3-row-padding w3-center w3-light-grey">
+        <article class="w3-third">
+            <p>John</p>
+            <img src="person1.png" alt="случайное имя" style="width:100%">
+        </article>
+        <article class="w3-third">
+            <p>Paul</p>
+            <img src="person2.png" alt="случайное имя" style="width:100%">
+        </article>
+        <article class="w3-third">
+            <p>Ringo</p>
+            <img src="person3.png" alt="случайное имя" style="width:100%">
+        </article>
+    </section>
+    <footer class="w3-container w3-padding-64 w3-center w3-black x3-xlarge">
+        <a href="#"><i class="fa fa-facebook-official"></i></a>
+        <a href="#"><i class="fa fa-pinterest-p"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-flickr"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <p class="w3-medium">
+            <a href="https://andreysavchenkov.github.io/">Andrey Savchenkov</a>
+        </p>
+
+    </footer>
+
+    <script>
+        //меняем изображение каждые 3 секунды
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 3000);
+        }
+    </script>
+
+</body>
+</html>
