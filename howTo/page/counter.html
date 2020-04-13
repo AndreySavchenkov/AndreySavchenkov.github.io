@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Counter</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 25%;
+            padding: 0 5px;
+        }
+
+        .row {margin: 0 -5px;}
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px; 
+            text-align: center;
+            background-color: #444;
+            color: white;
+        }
+
+        .fa {
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="row">
+
+        <div class="column">
+            <div class="card">
+                <p><i class="fa fa-user"></i></p>
+                <h3>11+</h3>
+                <p>Партнеры</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <p><i class="fa fa-check"></i></p>
+                <h3>55+</h3>
+                <p>Проекты</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <p><i class="fa fa-smile-o"></i></p>
+                <h3>100+</h3>
+                <p>Довольные клиенты</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <p><i class="fa fa-coffee"></i></p>
+                <h3>100+</h3>
+                <p>Встречи</p>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
