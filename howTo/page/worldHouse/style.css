@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
+}
+
+.wrapper {
+    width: 1600px;
+    margin: 0 auto;
 }
 /*Style for header*/
 header {
@@ -8,5 +14,73 @@ header {
     height: 800px;
     width: 1600px;
     position: relative;
+}
+
+/*стилизую навигацию*/
+
+.logo, nav, .phone-number, .translate {
+    display: inline-block;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-top: 24px;
+    padding-left: 80px;
+}
+
+.nav-wrapper {
+    height: 80px;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+nav {
+    width: 528px;
+    height: 18px;
+    padding-left: 359px;
+    padding-top: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    padding-left: 45px;
+    padding-bottom: 37px;
+}
+
+a:hover, a:visited {
+    border-bottom: 1px solid #ffffff;
+}
+
+.phone-number {
     
+    height: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    padding-left: 180px;
+}
+
+.phone-number:before {
+    content: "\2706";
+    width: 16px;
+    height: 16px;
+    padding-right: 4px;
+
+
 }
