@@ -59,7 +59,7 @@ nav a {
     padding-bottom: 37px;
 }
 
-a:hover, a:visited {
+nav a:hover, nav a:visited {
     border-bottom: 1px solid #ffffff;
 }
 
@@ -81,6 +81,81 @@ a:hover, a:visited {
     width: 16px;
     height: 16px;
     padding-right: 4px;
+}
 
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    color: #ffffff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-left: 11px;
+    padding-right: 11px;
+}
 
+.english {
+    font-weight: normal;
+    border-left: 1px solid #ffffff;
+}
+
+/*стилизация хедера*/
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    color: #ffffff;
+    margin-left: 77px;
+    margin-top: 247px;
+}
+
+.text-header {
+    width: 547px;
+    height: 69px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: 0.9px;
+    color: #ffffff;
+    margin-left: 80px;
+    margin-top: 27px;
+}
+
+.button-header {
+    width: 200px;
+    height: 50px;
+    background-color: #fa9e66;
+    margin-left: 80px;
+    margin-top: 48px;
+}
+
+.our-projects {
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.05px;
+    position: relative;
+    top: 15px;
+    left: 16px;
+    width: 170px;
 }
