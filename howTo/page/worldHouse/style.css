@@ -39,14 +39,14 @@ header {
     background-color: rgba(0,0,0, 0.4);
 }
 
-nav {
+header nav {
     width: 528px;
     height: 18px;
     padding-left: 359px;
     padding-top: 24px;
 }
 
-nav a {
+header nav a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -59,7 +59,7 @@ nav a {
     padding-bottom: 37px;
 }
 
-nav a:hover, nav a:visited {
+header nav a:hover, header nav a:visited {
     border-bottom: 1px solid #ffffff;
 }
 
@@ -236,5 +236,119 @@ img.history {
     height: 354px;
     margin-left: 61px;
     margin-top: 60px;
+}
+
+/*Стилизация проектов*/
+section.project {
+    width: 1534px;
+    height: 743px ;
+    display: block;
+    position: relative;
+}
+div.wrapper-project1 {
+    display: block;
+}
+
+h2.project-h2 {
+    margin-top: 135px;
+}
+
+p.project {
+    width: 718px;
+    height:86px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: 0.75px;
+    color: #171919;
+    margin-top: 54px;
+    margin-left: 80px;
+}
+
+.text-projects {
+    margin-top: -50px;
+}
+
+.wrapper-project2 {
+    display: flex;
+    padding-top: 8px;
+    padding-left: 80px;
+}
+
+.wrapper-project2 img {
+    padding-right: 25px;
+}
+
+/*стилизация контактов*/
+
+section.contact {
+    display: flex;
+    width: 1530px;
+    height: 379px;
+}
+
+.wrapper-contact1 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.75px;
+    color: #171919;
+    margin-left: 365px;
+    margin-top: 20px;
+}
+
+p.phone-contact {
+    margin-top: 52px;
+}
+
+.wrapper-contact2 {
+    margin-left: 155px;
+    margin-top: 80px;
+}
+
+.contact1:before {
+    content: '\2706';
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+
+.contact2:before {
+    content: '\2706';
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+
+.contact3:before {
+    content: '\1F582';
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+
+.contact4:before {
+    content: '\2751';
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+
+.contact5:before {
+    content: '\2752';
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+
+/*стилизация футера*/
+
+footer {
+    weight: 1600px;
+    height: 267px;
+    background-color: #333;
+    margin-top: 142px;
 }
 
