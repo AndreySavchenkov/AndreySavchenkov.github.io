@@ -352,3 +352,73 @@ footer {
     margin-top: 142px;
 }
 
+.logo-footer {
+    display: inline-block;
+    width: 105px;
+    height: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    margin-top: 80px;
+    margin-left: 80px;
+
+}
+
+.footer-nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.75px;
+    font-weight: normal;
+    margin-left: 30px;
+}
+
+nav.footer-nav {
+    display: inline-block;
+    margin-left: 350px;
+}
+
+.text-footer {
+    display: inline-block;
+    width: 328px;
+    height: 42px;
+    font-family: 'Montserat', sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.75px;
+    color: #fff;
+    margin-left: 102px;
+    margin-top: 80px;
+}
+
+.facebook {
+    margin-top: 69px;
+    margin-left: 77px;
+}
+
+.wrapper-footer2 a {
+    margin-right: 27px;
+    display: inline-block;
+}
+
+p.text-footer2 {
+    display: inline-block;
+    width: 370px;
+    height: 18px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.75px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 400px;
+}
+
+
+
