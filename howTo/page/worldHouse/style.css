@@ -159,3 +159,82 @@ h1 {
     left: 16px;
     width: 170px;
 }
+
+/*стилизация блока история*/
+
+section.history {
+    display: flex;
+    width: 1530px;
+    height: 423px;
+    padding-top: 85px;
+    
+}
+
+.alternativ-text {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 96px;
+    font-weight: 600px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.8px;
+    color: rgba(250, 158, 102, 0.05)
+}
+
+h2 {
+    display: block;
+    width: 144px;
+    height: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    color: #171919;
+    margin-left: 78px;
+    margin-top: 49px;
+    border-bottom: 1px solid #000;
+}
+
+h3 {
+    display: block;
+    width: 72px;
+    height: 27px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    color: #171919;
+    padding-left: 345px;
+    padding-top: 10px;
+  
+}
+
+p.history {
+    display: block;
+    width: 395px;
+    height: 287px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: 0.75px;
+    color: #171919;
+    padding-left: 344px;
+    padding-top: 10px;
+}
+
+img.history {
+    width: 720px;
+    height: 354px;
+    margin-left: 61px;
+    margin-top: 60px;
+}
+
