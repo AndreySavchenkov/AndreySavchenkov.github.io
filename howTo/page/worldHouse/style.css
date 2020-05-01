@@ -10,7 +10,7 @@
 }
 /*Style for header*/
 header {
-    background-image: url(/img/header-background.jpg);
+    background-image: url(img/header-background.jpg);
     height: 800px;
     width: 1600px;
     position: relative;
