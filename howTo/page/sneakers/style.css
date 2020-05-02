@@ -19,42 +19,177 @@ header {
 .header-wrapper {
     width: 1300px;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
+img.logo {
+    display: inline-block
+}
 .header-item-logo p {
     font-size: 14px;
     font-weight: 500;
-    line-height: 2.14;
     color: #2e2b2f;
     margin-right: 67px;
+    display: inline-block;
 }
 
 .header-item-logo p span {
     font-size: 18px;
     font-weight: bold;
-    line-height: 2;
     letter-spacing: 0.45px;
     color: #2e2b2f;
 }
+
+
 
 .header-item-logo {
     padding-top: 48px;
     display: inline-block;
 }
 
-.header-item-search {
-    display: inline-block;
-}
 
 .header-item-timtable {
     display: inline-block;
 }
 
+.header-item-timtable img {
+    margin-left: 406px;
+}
+
+.header-item-timtable p {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
 .header-item-phone {
     display: inline-block;
+    margin-left: 93px;
+}
+
+.header-item-phone p {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
 }
 
 .header-item-cashbox {
     display: inline-block;
 }
+
+.header-item-cashbox img {
+    display: inline-block;
+    width: 30px;
+    margin-left: 75px;
+}
+
+.header-item-cashbox p {
+    display: inline-block;
+    font-weight: 500;
+}
+
+.header-item-cashbox span {
+    font-weight: bold;
+}
+
+/*стилизация топовой навигации*/
+
+.topNav {
+    width: 100%;
+}
+
+.topNav-wrapper {
+    width: 1300px;
+    margin: 0 auto;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    }
+
+.topNav-wrapper  li{
+    list-style: none;
+    font-size: 14px;
+    letter-spacing: 0.28px;
+    color: #1f588f;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+li.topNav-tell {
+    font-size: 12px;
+    font-weight: 300;
+    color: #df4543;
+    border: 1px solid;
+    padding: 15px;
+}
+
+/*стилизация офера*/
+
+.banner {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.wrapper-banner {
+    background-image: url('img/background-banner.png');
+    width: 1300px;
+    height: 610px;
+    margin: 0 auto;
+}
+
+.wrapper-highText {
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.27px;
+    color: #1f588f;
+    padding-top: 152px;
+    line-height: 2.67px;
+} 
+
+.wrapper-midleText {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.04;
+    letter-spacing: 0.9px;
+    color: #1f588f;
+    margin-top: 15px;
+}
+
+.wrapper-bottomText {
+    width: 437px;
+    height: 70px;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.28px;
+    color: #2e2b2f;
+    margin-top: 15px;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+  /* отображаем курсор в виде руки при наведении; некоторые
+    считают, что необходимо оставлять стрелочный вид для кнопок */
+    cursor: pointer;
+  }
+
+.wrapper-button {
+    position: relative;
+    background-color: #df4543 ;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
 
