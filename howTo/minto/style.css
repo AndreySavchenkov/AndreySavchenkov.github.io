@@ -99,4 +99,21 @@ header {
     color: #fff;
 }
 
+/* стилизация текста*/
+.middle-text {
+    
+}
+
+.middle-text p {
+    font-size: 23px;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    color: #494848;
+    border-top: 1px solid #494848;
+    border-bottom: 1px solid #494848;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
 
