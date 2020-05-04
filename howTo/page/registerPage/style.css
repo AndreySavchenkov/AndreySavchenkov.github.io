@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+}
+
+.wrapper {
+    width: 375px;
+    margin: 0 auto;
+}
+
+.register-page {
+    background-image: url(img/Bubbles.jpg);
+    width: 375px;
+    height: 819px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 260px;
+}
+
+.register-page__title {
+    font-size: 96px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 127px;
+    color: #120E21;
+}
+
+.register-page__button {
+    background: transparent;
+    border: none;
+    width: 263px;
+    height: 54px;
+    background-color: #9378FF;
+    border-radius: 60px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+    margin-top: 157px;
+}
