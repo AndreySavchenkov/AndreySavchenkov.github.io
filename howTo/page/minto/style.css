@@ -114,6 +114,39 @@ header {
     border-bottom: 1px solid #494848;
     padding-top: 20px;
     padding-bottom: 20px;
-
 }
+article {
+    display: flex;
+}
+article img {
+    border-radius: 50%;
+    border: 15px solid #EAEAEA;
+}
+.article__text {
+    padding-left: 35px;
+}
+.article__text__title {
+    font-size: 31px;
+    font-weight: bold;
+    line-height: 1.16;
+    color: #505051;
+    padding-top: 40px;
+}
+.article__text__blog {
+    font-size: 15px;
+    line-height: 1.87;
+    color: #838383;
+}
+.linkForArticle {
+    text-decoration: none;
+    color: #82699d;
+    font-size: 13px;
+    padding-left: 900px;
+}
+.linkForArticle:after {
+    content: '\f061';
+    font-family: fontawesome;
+    padding-left: 10px;
+}
+
 
