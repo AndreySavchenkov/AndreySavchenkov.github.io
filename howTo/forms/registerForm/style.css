@@ -48,8 +48,51 @@ input {
     border: 2px solid #E0E0E0;
 }
 
+ i {
+    display: none;
+    font-size: 20px;
+    z-index: 9999;
+    color: #FAFAFA;
+}
+
 [placeholder] {
     font-size: 20px;
     padding-left: 10px;
 }
+
+i:after {
+    content: '\f0e0';
+    position: absolute;
+    font-family: fontawesome;
+    font-size: 20px;
+    color:  #E0E0E0;
+    margin-left: 250px;
+
+}
+
+.fa-lock:after {
+    content: '\f023';
+}
+
+.registeredForm__button {
+    width: 274px;
+    height: 45px;
+    border: none;
+    background-color: #F44336;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.registeredForm__register {
+    border: none;
+    height: 54px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+}
+
 
