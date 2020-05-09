@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,562;0,600;0,700;1,400;1,500;1,562;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.wrapper {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.header__nav {
+    height: 80px;
+}
+
+.header__nav__logo {
+    display: inline-block;
+    width: 280px;
+    height: 43px;
+    font-family: 'Popins', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.2;
+    color: #000000;
+    margin-top: 13.5px;
+    margin-left: 138px;
+}
+
+.header__nav__link {
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-left: 541px;
+}
+
+.header__nav__link:before {
+    content: '\f4ba';
+    font-family: fontawesome;
+    margin-right: 10px;
+}
+
+.header__tittle {
+    font-family: 'Lora', serif;
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 142px;
+    margin-left: 136px;
+}
+
+.header__button {
+    margin-top: 83px;
+    margin-left: 136px;
+    letter-spacing: 0.55px;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+header {
+    background: url(img/background.png);
+    height: 700px;
+    position: relative;
+}
+
+.backgroundImage {
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    z-index: -1;
+}
+
+
+
+.fa-angle-double-down {
+    font-size: 60px;
+    color: grey;
+    position: absolute;
+    top:630px;
+    left: 600px;
+}
+
+.aboutLeo__title {
+    font-family:'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: normal;
+    display: block;
+    margin: 42px auto;
+    width: 500px;
+    line-height: 1.2;
+}
+
+.aboutLeo__text {
+    display: block;
+    width: 750px;
+    height: 308px;
+    font-family: 'Lola', serif;
+    font-size: 22px;
+    margin: 0 auto;
+}
+
+.firstLetter {
+    font-size: 45px;
+    float: left;
+}
+
+.aboutLeo {
+    border-bottom: 4px solid #ededed;
+}
+
+.gadget {
+    display: flex;
+    flex-direction: column;
+}
+
+.gadget__item {
+    display: flex;
+    margin: 120px auto;
+    height: 400px;
+
+}
+
+.gadget__item__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+
+.gadget__item__title {
+    font-size: 30px;
+    font-family: 'Lola', serif;
+}
+
+.gadget__item__text {
+    font-size: 16px;
+    font-family: 'Lola', serif;
+    line-height: 1.38;
+    width: 328px;
+    height: 118px;
+}
+
+.gadget__item__button {
+    border: none;
+    font-size: 22px;
+    width: 232px;
+    height: 46px;
+    padding: 5px 10px;
+    border: solid 1px #d6d6d6;
+    background-color: #dddddd;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.img__reverse {
+    margin-left: 120px;
+}
