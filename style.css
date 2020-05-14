@@ -39,8 +39,8 @@ header {
 
 .my_name {
 	margin-top: 20px;
-	width: 800px;
-	height: 100px;
+	width: 1200px;
+
 	display: block;
 	font-family: 'Swanky and Moo', cursive;
 	font-size: 72px;
@@ -49,7 +49,7 @@ header {
 
 .my_position {
 	display: block;
-	width: 600px;
+	width: 1000px;
 	height: 60px;
 	font-family: 'Kaushan Script', cursive;
 	font-size: 40px;
@@ -108,3 +108,64 @@ a.projects-link {
 .projects-link {
 	display: block;
 }
+
+/*Animation*/
+
+.my_position {
+	animation: my_position 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.my_name {
+	animation: my_name 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes my_position {
+	0% {
+		letter-spacing: 1em;
+		transform: translateZ(300px);
+		filter: blur(12px);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateZ(12px);
+		filter: blur(0);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes focus-in-expand-fwd {
+	0% {
+	  letter-spacing: -0.5em;
+	  -webkit-transform: translateZ(-800px);
+			  transform: translateZ(-800px);
+	  -webkit-filter: blur(12px);
+			  filter: blur(12px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateZ(0);
+			  transform: translateZ(0);
+	  -webkit-filter: blur(0);
+			  filter: blur(0);
+	  opacity: 1;
+	}
+  }
+  @keyframes my_name {
+	0% {
+	  letter-spacing: -0.5em;
+	  -webkit-transform: translateZ(-800px);
+			  transform: translateZ(-800px);
+	  -webkit-filter: blur(12px);
+			  filter: blur(12px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateZ(0);
+			  transform: translateZ(0);
+	  -webkit-filter: blur(0);
+			  filter: blur(0);
+	  opacity: 1;
+	}
+  }
+  
