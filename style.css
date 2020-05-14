@@ -112,7 +112,7 @@ a.projects-link {
 /*Animation*/
 
 .my_position {
-	animation: my_position 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: my_position 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;;
 }
 
 .my_name {
@@ -120,21 +120,6 @@ a.projects-link {
 }
 
 @keyframes my_position {
-	0% {
-		letter-spacing: 1em;
-		transform: translateZ(300px);
-		filter: blur(12px);
-		opacity: 0;
-	}
-
-	100% {
-		transform: translateZ(12px);
-		filter: blur(0);
-		opacity: 1;
-	}
-}
-
-@-webkit-keyframes focus-in-expand-fwd {
 	0% {
 	  letter-spacing: -0.5em;
 	  -webkit-transform: translateZ(-800px);
