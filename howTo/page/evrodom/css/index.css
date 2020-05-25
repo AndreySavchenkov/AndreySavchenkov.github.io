@@ -343,7 +343,7 @@ template {
 }
 
 .header__flexContainer {
-  background-image: url(/img/main.jpg);
+  background-image: url(../img/main.jpg);
   display: flex;
   height: 670px;
   flex-direction: column;
