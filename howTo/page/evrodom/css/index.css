@@ -348,21 +348,39 @@ template {
 
 .header__flexContainer {
   background-image: url(../img/main.jpg);
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
-  height: 670px;
+  height: 80vh;
   flex-direction: column;
   align-items: center;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .header__flexContainer {
+    height: 87vh;
+  }
+}
+
 .header__title {
-  margin-top: 283px;
+  margin-top: 35vh;
+  text-align: center;
   display: block;
   font-size: 42px;
   color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .header__title {
+    font-size: 1.3em;
+  }
 }
 
 .header__link {
-  margin-top: 100px;
+  margin-top: 28vh;
   display: block;
   text-decoration: none;
   color: black;
@@ -377,5 +395,11 @@ template {
   text-decoration: none;
   color: white;
   background-color: #f42267;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .header__link {
+    margin-top: 33vh;
+  }
 }
 /*# sourceMappingURL=index.css.map */
