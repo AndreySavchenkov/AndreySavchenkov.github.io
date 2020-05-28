@@ -3,111 +3,31 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
 }
 
-@mixin respondTo ($_minWidth, $_maxWidth) {
-    @media (min-width: $_minWidth) and (max-width: $_maxWidth) {
-        @content;
-    }
-}
-
-.container-xl {
-    padding: 0;
-}
-
-.header__flexContainer {
-    background-image: url(../img/main.jpg);
-    background-color: grey;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    height: 80vh;
-    flex-direction: column;
-    align-items: center;
-    @include respondTo (320px, 767px) {
-        height: 87vh;
-    }
-    
-}
-
-.header__title {
-    margin-top: 28rem;
-    text-align: center;
-    display: block;
-    font-size: 42px;
-    color: white;
-    background-color: rgba(0,0,0, 0.4);
-    @include respondTo (320px, 767px) {
-        font-size: 1.3em; 
-        margin-top: 17rem;
-    }
-}
-
-.header__link {
-    margin-top: 20rem;
-    display: block;
+a {
     text-decoration: none;
     color: black;
-    background-color: white;
-    text-align: center;
-    width: 200px;
-    padding: 10px;
-    border-radius: 20px;
-    &:hover {
-        text-decoration: none;
-        color: white;
-        background-color: #f42267;
-    }
-    @include respondTo (320px, 767px) {
-        margin-top: 10rem;
-    }
-} 
-
-/*стилизация классических окон и дверей*/
-
-.classic__title {
-    font-size: 1.7em;
+    font-size: 2em;
     font-weight: 400;
-    text-align: center;
-    margin-top: 5rem;
-    @include respondTo (320px, 767px) {
-        margin-top: 2rem;
-        font-size: 1em;
-    }
 }
 
-.classic__flexContain {
-    display: flex;
-    margin-top: 5rem;
-    @include respondTo (320px, 767px) {
-        flex-direction: column;
-        margin-top: 2rem;
-    }
-}
 
-.classic__text {
-    margin-left: 2em;
-    font-size: 1.2rem;
-    min-width: 300px;
-    @include respondTo (320px, 767px) {
-        margin-left: .5rem;
-        font-size: .7em;
-        margin-top: 1rem;
-    }
-}
-
-.wrapper__classicImg {
-    display: flex;
+nav {
+    display: grid;
+    grid-template-columns: 200px 1fr 300px;
     align-items: center;
-    justify-content: center;
-    min-width: 600px;
-    @include respondTo (320px, 767px) {
-        min-width: 300px;
-    }
+    background-color:rgba(92, 88, 88, 0.164);
 }
 
-
-.classic__img {
-    width: 100%;
+.topNav__items > a {
+    margin-left: 2rem;
 }
+
+.topNav__phone:before {
+    content: '\f879' ;
+    font-family: fontawesome;
+    margin-right: 1em;
+}
+
