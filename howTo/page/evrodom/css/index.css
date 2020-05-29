@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -350,6 +351,7 @@ a {
   font-weight: 400;
 }
 
+/*стилизация верхней навигации*/
 nav {
   display: grid;
   grid-template-columns: 200px 1fr 300px;
@@ -365,5 +367,16 @@ nav {
   content: '\f879';
   font-family: fontawesome;
   margin-right: 1em;
+}
+
+/*стилизация хедера*/
+header {
+  display: flex;
+  height: 100vh;
+  background: gray;
+  background-image: url(../img/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /*# sourceMappingURL=index.css.map */

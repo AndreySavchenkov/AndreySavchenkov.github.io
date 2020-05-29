@@ -13,6 +13,7 @@ a {
     font-weight: 400;
 }
 
+/*стилизация верхней навигации*/
 
 nav {
     display: grid;
@@ -29,5 +30,17 @@ nav {
     content: '\f879' ;
     font-family: fontawesome;
     margin-right: 1em;
+}
+
+/*стилизация хедера*/
+
+header {
+    display: flex;
+    height: 100vh;
+    background: gray;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
