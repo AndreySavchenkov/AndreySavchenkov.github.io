@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Swanky+and+Moo+Moo&display=swap');
 *,
 *:after,
 *:before {
 	box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Swanky+and+Moo+Moo&display=swap');
+
 
 h1,
 h2,
@@ -23,6 +24,11 @@ h6 {
 }
 
 /* Header */
+h2 {
+	font-family: 'Kaushan Script', cursive;
+}
+
+
 
 header {
 	display: flex;
@@ -44,7 +50,7 @@ header {
 	width: 1200px;
 
 	display: block;
-	font-family: 'Swanky and Moo', cursive;
+	font-family: 'Swanky and Moo Moo', cursive;
 	font-size: 72px;
 	text-align: center;
 }
@@ -91,16 +97,17 @@ header {
 
 ul {
 	list-style: none;
-	font-family: 'Swanky and Moo', cursive;
-	font-size: 18px;
+	font-family: 'Swanky and Moo Moo', cursive;
+	font-size: 30px;
 }
 
 a.projects-link {
 	text-decoration: none;
-	font-family: 'Swanky and Moo', cursive;
-	font-size: 18px;
+	font-family: 'Swanky and Moo Moo', cursive;
+	font-size: 30px;
 	padding-top: 10px;
 	color: black;
+	cursor: pointer;
 }
 
 .projects {
