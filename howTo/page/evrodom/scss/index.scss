@@ -236,3 +236,86 @@ header {
     }
 }
 
+/*стилизация w72*/
+
+.w72__title {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    margin: 5rem 0;
+}
+
+.w72__mainInfo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.w72__mainInfo__img {
+    display: block;
+    width: 45%;
+    background-size: contain;
+}
+
+.w72__mainInfo__container__text {
+    display: block;
+    font-size: 2em;
+    margin-left: 2em;
+}
+
+/*стилизация  F50*/
+
+.f50__title {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    margin: 5rem 0;
+}
+
+.f50__mainInfo {
+    display: flex;
+    align-items: center;
+    background-size: contain;
+    
+}
+
+.f50__mainInfo__img {
+    display: block;
+    width: 45%;
+}
+
+.f50__mainInfo__container__text {
+    display: block;
+    font-size: 2em;
+    margin-left: 2em;
+}
+
+/*система sl160*/
+
+.sl160__title {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    margin: 5rem 0;
+}
+
+.sl160__mainInfo {
+    display: flex;
+    align-items: center;
+    background-size: contain;
+    
+}
+
+.sl160__mainInfo__img {
+    display: block;
+    width: 45%;
+}
+
+.sl160__mainInfo__container__text {
+    display: block;
+    font-size: 2em;
+    margin-left: 2em;
+}
