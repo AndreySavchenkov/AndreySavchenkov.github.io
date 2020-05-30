@@ -346,7 +346,7 @@ template {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #252A34;
   font-size: 2em;
   font-weight: 400;
 }
@@ -354,9 +354,11 @@ a {
 /*стилизация верхней навигации*/
 .topNav {
   display: grid;
+  position: absolute;
+  width: 100%;
   grid-template-columns: 200px 1fr 300px;
   align-items: center;
-  background-color: rgba(92, 88, 88, 0.164);
+  background-color: rgba(234, 234, 234, 0.7);
   overflow: hidden;
 }
 
@@ -368,6 +370,11 @@ a {
   content: '\f879';
   font-family: fontawesome;
   margin-right: 1em;
+  color: #FF2E63;
+}
+
+.topNav__phone {
+  color: #FF2E63;
 }
 
 .topNav__icon {
@@ -380,6 +387,7 @@ a {
 .fa-bars {
   font-family: fontawesome;
   font-size: 4rem;
+  color: #252A34;
 }
 
 /*стилизация гамбургера под телевфоны*/
@@ -442,7 +450,7 @@ a {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #616161;
+  background-color: #FF2E63;
   transition-duration: .25s;
 }
 
@@ -475,7 +483,7 @@ a {
 .menu__item {
   display: block;
   padding: 12px 24px;
-  color: #333;
+  color: #252A34;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -484,7 +492,7 @@ a {
 }
 
 .menu__item:hover {
-  background-color: #CFD8DC;
+  background-color: #EAEAEA;
 }
 
 /*стилизация хедера*/
@@ -501,7 +509,7 @@ header {
   background-position: center;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 700px) {
   header {
     background-position-x: -180px;
   }
@@ -517,14 +525,14 @@ header {
 .header__link {
   font-size: 3em;
   background-color: white;
-  color: #cc4c4c;
+  color: #FF2E63;
   padding: 15px 10px;
   border-radius: 10px;
-  border: 1px solid #cc4c4c;
+  border: 1px solid #FF2E63;
 }
 
 .header__link:hover {
-  background-color: #cc4c4c;
+  background-color: #FF2E63;
   color: white;
 }
 
