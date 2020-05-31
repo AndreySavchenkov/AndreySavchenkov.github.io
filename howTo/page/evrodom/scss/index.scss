@@ -241,27 +241,41 @@ header {
 .w72__title {
     display: block;
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 600;
     margin: 5rem 0;
+    @media screen and (max-width: 1200px){
+        font-size: 2.5em;
+    }
 }
 
 .w72__mainInfo {
     display: flex;
     align-items: center;
+    @media screen and (max-width: 770px){
+        flex-direction: column;
+    }
     
 }
 
 .w72__mainInfo__img {
     display: block;
     width: 45%;
+    min-width: 300px;
     background-size: contain;
 }
 
 .w72__mainInfo__container__text {
     display: block;
-    font-size: 2em;
-    margin-left: 2em;
+    font-size: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    @media screen and (max-width: 1675px){
+        font-size: 2.5em;
+    }
+    @media screen and (max-width: 1200px){
+        font-size: 2em;
+    }
 }
 
 /*стилизация  F50*/
@@ -269,27 +283,41 @@ header {
 .f50__title {
     display: block;
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 600;
     margin: 5rem 0;
+    @media screen and (max-width: 1200px){
+        font-size: 2.5em;
+    }
 }
 
 .f50__mainInfo {
     display: flex;
     align-items: center;
     background-size: contain;
+    @media screen and (max-width: 770px){
+        flex-direction: column-reverse;
+    }
     
 }
 
 .f50__mainInfo__img {
     display: block;
     width: 45%;
+    min-width: 300px;
 }
 
 .f50__mainInfo__container__text {
     display: block;
-    font-size: 2em;
-    margin-left: 2em;
+    font-size: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    @media screen and (max-width: 1675px){
+        font-size: 2.5em;
+    }
+    @media screen and (max-width: 1200px){
+        font-size: 2em;
+    }
 }
 
 /*система sl160*/
@@ -297,25 +325,39 @@ header {
 .sl160__title {
     display: block;
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 600;
     margin: 5rem 0;
+    @media screen and (max-width: 1200px){
+        font-size: 2.5em;
+    }
 }
 
 .sl160__mainInfo {
     display: flex;
     align-items: center;
     background-size: contain;
+    @media screen and (max-width: 770px){
+        flex-direction: column;
+    }
     
 }
 
 .sl160__mainInfo__img {
     display: block;
     width: 45%;
+    min-width: 300px;
 }
 
 .sl160__mainInfo__container__text {
     display: block;
-    font-size: 2em;
-    margin-left: 2em;
+    font-size: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    @media screen and (max-width: 1675px){
+        font-size: 2.5em;
+    }
+    @media screen and (max-width: 1200px){
+        font-size: 2em;
+    }
 }
