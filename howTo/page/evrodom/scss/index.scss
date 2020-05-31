@@ -33,11 +33,11 @@ a {
     content: '\f879';
     font-family: fontawesome;
     margin-right: 1em;
-    color: #FF2E63;
+    color: #9b0000;
 }
 
 .topNav__phone {
-    color: #FF2E63;
+    color: #9b0000;
 }
 
 .topNav__icon {
@@ -119,7 +119,7 @@ a {
     width: 100%;
     height: 2px;
 
-    background-color: #FF2E63;
+    background-color:#9b0000;
 
     transition-duration: .25s;
 }
@@ -203,23 +203,21 @@ header {
 .header__link {
     font-size: 3em;
     background-color: white;
-    color: #FF2E63;
+    color: #9b0000;
     padding: 15px 10px;
     border-radius: 10px;
-    border: 1px solid #FF2E63;
+    border: 1px solid#9b0000;
 
     &:hover {
-        background-color: #FF2E63;
+        background-color: #9b0000;
         color: white;
     }
 
 }
 
-@media screen and (max-width: 1180px) {
-    .header__title {
-        font-size: 6em;
-    }
-}
+
+
+
 
 @media screen and (max-width: 1255px) {
     .header__title {
@@ -227,11 +225,17 @@ header {
     }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 563px) {
     .header__title {
         font-size: 2.5em;
     }
     .header__link {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 349px) {
+    .header__title {
         font-size: 2em;
     }
 }
@@ -360,4 +364,52 @@ header {
     @media screen and (max-width: 1200px){
         font-size: 2em;
     }
+}
+
+/*стилизация преимуществ*/
+
+.advantages__title {
+    display: block;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 600;
+    margin: 5rem 0;
+    @media screen and (max-width: 1200px){
+        font-size: 2.5em;
+    }
+}
+
+.advantages__items {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-gap: 1em;
+    @media screen and (max-width: 1300px) {
+        grid-template-columns: 1fr 1fr;
+    }
+    @media screen and (max-width: 800px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.advantages__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages__item__title {
+    font-size: 2em;
+    text-align: center;
+}
+
+.fas {
+    font-family: fontawesome;
+    text-align: center;
+    font-size: 6em;
+    color: #9b0000;
+}
+
+ul.advantages__item__text > li {
+    font-size: 2em;
+    list-style: none;
+    padding: .4em 0;
 }
