@@ -833,5 +833,92 @@ ul.advantages__item__text > li {
 /*стилизация контактов*/
 .contact__phone {
   color: #9b0000;
+  font-size: 2rem;
+}
+
+.contact__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 680px) {
+  .contact__container {
+    flex-direction: column;
+  }
+}
+
+.contact__container__text {
+  margin-left: 10em;
+}
+
+@media screen and (max-width: 680px) {
+  .contact__container__text {
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+}
+
+.contact__container__text p {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 680px) {
+  .contact__container__text p {
+    font-size: 1.5rem;
+  }
+}
+
+.contact__container__text span {
+  display: block;
+  font-size: 2rem;
+  margin-top: 3rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 680px) {
+  .contact__container__text span {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+}
+
+a.contact__link {
+  font-size: 2rem;
+  display: block;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 680px) {
+  a.contact__link {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+}
+
+.fab {
+  font-size: 3rem;
+  margin-left: 1rem;
+  color: #9b0000;
+}
+
+@media screen and (max-width: 680px) {
+  .fab {
+    margin-top: 2rem;
+  }
+}
+
+.contact__map {
+  display: block;
+  width: 50%;
+  height: 500px;
+}
+
+@media screen and (max-width: 680px) {
+  .contact__map {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=index.css.map */
