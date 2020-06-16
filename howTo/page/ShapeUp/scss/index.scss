@@ -1,7 +1,13 @@
 @import "../css/normalize";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 $whiteBlue: #12C2E9;
 $whiteRed: #F80759;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
 
 a {
     text-decoration: none;
@@ -62,14 +68,16 @@ a {
 .banner__h1 {
     display: block;
     font-size: 60px;
-    color: $whiteRed;
     margin-left: 390px;
     margin-top: 190px;
+    font-weight: 600;
+    color: white;
 }
 
 .banner__h1 > span {
     font-size: 48px;
     color: $whiteBlue;
+    font-weight: 400;
 }
 
 

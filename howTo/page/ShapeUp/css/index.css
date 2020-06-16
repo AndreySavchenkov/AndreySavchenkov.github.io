@@ -1,4 +1,11 @@
 @import url(c:\Users\111\Desktop\AndreySavchenkov.github.io\howTo\page\ShapeUp\css\normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -54,13 +61,15 @@ a {
 .banner__h1 {
   display: block;
   font-size: 60px;
-  color: #F80759;
   margin-left: 390px;
   margin-top: 190px;
+  font-weight: 600;
+  color: white;
 }
 
 .banner__h1 > span {
   font-size: 48px;
   color: #12C2E9;
+  font-weight: 400;
 }
 /*# sourceMappingURL=index.css.map */
