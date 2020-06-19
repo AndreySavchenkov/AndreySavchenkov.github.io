@@ -80,5 +80,84 @@ a {
     font-weight: 400;
 }
 
+.banner__text {
+    font-size: 16px;
+    color: white;  
+    margin-left: 390px;
+    margin-top: 20px; 
+}
+
+.banner__btn {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    border: 1px solid $whiteRed;
+    border-radius: 5px;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+.banner__btn:hover {
+    background-color: $whiteRed;
+}
+
+.banner__btn__first {
+    margin-left: 390px;
+    margin-right: 20px;
+}
+
+/*about us*/
+
+.about-us {
+    background-color: black;
+}
+
+.about-us__text__subtitle {
+    font-size: 18px;
+    color: $whiteBlue;
+    padding-top: 127px;
+    margin-left: 390px;
+}
+
+.about-us__text__title {
+    font-size: 30px;
+    color: white; 
+    margin-top: 10px;
+    margin-left: 390px;
+    
+}
+
+.about-us__underline {
+    width: 60px;
+    height: 2px;
+    background-color: $whiteRed;
+    margin-left: 390px;
+    margin-top: 24px;
+}
+
+.about-us__text__main-title {
+    font-size: 22px;
+    color: white;
+    margin-top: 44px;
+    margin-left: 390px;
+}
+
+.about-us__text__main {
+    width: 519px;
+    color: white;
+    font-size: 14px;
+    margin-top: 35px;
+    margin-left: 390px;
+}
+
+.about-us__text__link {
+    display: inline-block;
+    color: $whiteRed;
+    margin-left: 390px;
+    margin-top: 39px;
+
+}
+
+
 
 
