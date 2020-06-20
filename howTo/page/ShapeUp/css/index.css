@@ -102,6 +102,10 @@ a {
 /*about us*/
 .about-us {
   background-color: black;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .about-us__text__subtitle {
@@ -146,5 +150,79 @@ a {
   color: #F80759;
   margin-left: 390px;
   margin-top: 39px;
+}
+
+/*add swiper.js*/
+.swiper-container {
+  width: 800px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery-top {
+  height: 80%;
+  width: 800px;
+}
+
+.gallery-thumbs {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.gallery-thumbs .swiper-slide {
+  width: 25%;
+  height: 20%;
+  opacity: 0.4;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+/*trainers*/
+.trainers {
+  background-color: black;
+}
+
+.trainers__subtitle {
+  font-size: 18px;
+  color: #12C2E9;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.trainers__title {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.trainers__line {
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #F80759;
+  margin-left: 921px;
+  margin-top: 25px;
+}
+
+.trainers__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.trainers__item {
+  margin: 50px 0;
 }
 /*# sourceMappingURL=index.css.map */

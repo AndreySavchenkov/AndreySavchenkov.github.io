@@ -3,6 +3,7 @@
 
 $whiteBlue: #12C2E9;
 $whiteRed: #F80759;
+
 * {
     margin: 0;
     padding: 0;
@@ -23,13 +24,13 @@ a {
 
 /*logo*/
 
-.logo > p {
+.logo>p {
     display: inline;
     font-size: 36px;
     margin-left: 10px;
 }
 
-.logo > span {
+.logo>span {
     display: inline;
     font-size: 36px;
     color: $whiteRed;
@@ -40,7 +41,7 @@ a {
     width: 185px;
     height: 44px;
     margin-top: 28px;
-    margin-left: 390px; 
+    margin-left: 390px;
 }
 
 /*wrapper*/
@@ -60,7 +61,8 @@ a {
 .banner__nav__item {
     margin-left: 30px;
     font-size: 16px;
-} 
+}
+
 .banner__nav__item:hover {
     color: $whiteRed;
 }
@@ -74,7 +76,7 @@ a {
     color: white;
 }
 
-.banner__h1 > span {
+.banner__h1>span {
     font-size: 48px;
     color: $whiteBlue;
     font-weight: 400;
@@ -82,9 +84,9 @@ a {
 
 .banner__text {
     font-size: 16px;
-    color: white;  
+    color: white;
     margin-left: 390px;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 .banner__btn {
@@ -110,6 +112,11 @@ a {
 
 .about-us {
     background-color: black;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 
 .about-us__text__subtitle {
@@ -121,10 +128,10 @@ a {
 
 .about-us__text__title {
     font-size: 30px;
-    color: white; 
+    color: white;
     margin-top: 10px;
     margin-left: 390px;
-    
+
 }
 
 .about-us__underline {
@@ -158,6 +165,79 @@ a {
 
 }
 
+/*add swiper.js*/
 
+.swiper-container {
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.swiper-slide {
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-top {
+    height: 80%;
+    width: 800px;
+}
+
+.gallery-thumbs {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.gallery-thumbs .swiper-slide {
+    width: 25%;
+    height: 20%;
+    opacity: 0.4;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+/*trainers*/
+
+.trainers{
+    background-color: black;
+}
+
+.trainers__subtitle {
+    font-size: 18px;
+    color: $whiteBlue;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.trainers__title {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.trainers__line {
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: $whiteRed;
+    margin-left: 921px;
+    margin-top: 25px;
+}
+
+.trainers__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.trainers__item {
+    margin: 50px 0;
+}
 
