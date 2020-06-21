@@ -116,7 +116,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+
 }
 
 .about-us__text__subtitle {
@@ -204,7 +204,7 @@ a {
 
 /*trainers*/
 
-.trainers{
+.trainers {
     background-color: black;
 }
 
@@ -240,4 +240,82 @@ a {
 .trainers__item {
     margin: 50px 0;
 }
+
+/*programs*/
+
+.programs {
+    background-color: #161616;
+}
+
+.programs__subtitle {
+    font-size: 18px;
+    color: $whiteBlue;
+    text-align: center;
+    padding-top: 78px;
+}
+
+.programs__title {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.programs__line {
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: $whiteRed;
+    margin-left: 915px;
+    margin-top: 25px;
+}
+
+.programs__items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.programs__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 58px;
+}
+
+.programs__item__logo {
+    width: 50px;
+    height: 50px;
+    border: 1px solid $whiteRed;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.programs__item__title {
+    color: white;
+    font-size: 22px;
+    margin-top: 41px;
+}
+
+.programs__item__text {
+    width: 324px;
+    color: white;
+    font-size: 12px;
+    margin-top: 26px;
+    text-align: center;
+}
+
+.programs__item__link {
+    border: 1px solid $whiteRed;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 12px;
+    margin-top: 32px;
+    margin-bottom: 80px;
+    &:hover {
+        background-color: $whiteRed;
+    }
+} 
+
+
 

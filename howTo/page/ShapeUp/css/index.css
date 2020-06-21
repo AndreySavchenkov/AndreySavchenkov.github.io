@@ -225,4 +225,80 @@ a {
 .trainers__item {
   margin: 50px 0;
 }
+
+/*programs*/
+.programs {
+  background-color: #161616;
+}
+
+.programs__subtitle {
+  font-size: 18px;
+  color: #12C2E9;
+  text-align: center;
+  padding-top: 78px;
+}
+
+.programs__title {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.programs__line {
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #F80759;
+  margin-left: 915px;
+  margin-top: 25px;
+}
+
+.programs__items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.programs__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 58px;
+}
+
+.programs__item__logo {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #F80759;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.programs__item__title {
+  color: white;
+  font-size: 22px;
+  margin-top: 41px;
+}
+
+.programs__item__text {
+  width: 324px;
+  color: white;
+  font-size: 12px;
+  margin-top: 26px;
+  text-align: center;
+}
+
+.programs__item__link {
+  border: 1px solid #F80759;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 12px;
+  margin-top: 32px;
+  margin-bottom: 80px;
+}
+
+.programs__item__link:hover {
+  background-color: #F80759;
+}
 /*# sourceMappingURL=index.css.map */
