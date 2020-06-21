@@ -7,6 +7,7 @@
     <title>ShapeUp</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="css/index.min.css">
+    <script src="https://kit.fontawesome.com/7f4db95764.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -56,18 +57,15 @@
 
             <!--add swiper.js-->
             <div class="about-us__img">
-                
-               
+
+
 
                 <div class="swiper-container gallery-top">
                     <div class="swiper-wrapper">
-                        
-                        <div class="swiper-slide" 
-                            style="background-image:url(img/about-us1.jpg)"></div>
-                        <div class="swiper-slide" 
-                            style="background-image:url(img/about-us2.jpg)"></div>
-                        <div class="swiper-slide" 
-                            style="background-image:url(img/about-us3.jpg)"></div>
+
+                        <div class="swiper-slide" style="background-image:url(img/about-us1.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(img/about-us2.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(img/about-us3.jpg)"></div>
 
                     </div>
                     <!-- Add Arrows -->
@@ -76,12 +74,9 @@
                 </div>
                 <div class="swiper-container gallery-thumbs">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide" 
-                            style="background-image:url(img/about-us1.jpg)"></div>
-                        <div class="swiper-slide" 
-                            style="background-image:url(img/about-us2.pjpg"></div>
-                        <div class="swiper-slide" 
-                            style="background-image:url(img/about-us3.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(img/about-us1.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(img/about-us2.pjpg"></div>
+                        <div class="swiper-slide" style="background-image:url(img/about-us3.jpg)"></div>
 
                     </div>
                 </div>
@@ -140,45 +135,50 @@
         <article class="reviews">
             <p class="reviews__subtitle">Reviews</p>
             <h2 class="reviews__title">WHAT OUR CLIENTS SAY</h2>
+            <div class="reviews__line"></div>
             <div class="reviews__items">
                 <div class="reviews__item">
-                    <img src="#" alt="" class="riviews__item__img">
+                    <img src="img/reviewsHero.png" alt="" class="riviews__item__img">
                     <div class="reviews__item__text">
                         <p class="reviews__item__text__name">Rebecca Morrison</p>
-                        <p class="riviews__item__text__position">Social Worker</p>
+                        <p class="reviews__item__text__position">Social Worker</p>
                         <p class="reviews__item__text__main">
                             Curabitur interdum nulla ligula, ac iaculis est venon. Quisque auctor, ex id posuere
                             aliquam,
                             lorem mauris venenatis sem, eu facilisis magna nibh . Praesent laoreet leo diam, ut suscipit
                             purus malesuada laoreet. Aliquam erat volutpat.
                         </p>
-                        <div class="rating"></div>
+                        <div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                     </div>
                 </div>
-                <div class="reviews__item__text">
-                    <p class="reviews__item__text__name">Daniel Bllomberg</p>
-                    <p class="riviews__item__text__position">Salesman</p>
-                    <p class="reviews__item__text__main">
-                        Donec nec interdum turpis. Donec faucibus facilisis enim, ut fringilla urna elementum
-                        non. Mauris vel
-                        mauris ac tellus feugiat maximus. Sed augue enim, lacinia non dui ut, mollis vulputate
-                        felis. Vivamus
-                        consequat bibendum ullamcorper.
-                    </p>
-                    <div class="rating"></div>
+                <div class="reviews__item">
+                    <img src="img/reviewsHero2.png" alt="" class="riviews__item__img">
+                    <div class="reviews__item__text">
+                        <p class="reviews__item__text__name">Daniel Bllomberg</p>
+                        <p class="reviews__item__text__position">Salesman</p>
+                        <p class="reviews__item__text__main">
+                            Donec nec interdum turpis. Donec faucibus facilisis enim, ut fringilla urna elementum
+                            non. Mauris vel
+                            mauris ac tellus feugiat maximus. Sed augue enim, lacinia non dui ut, mollis vulputate
+                            felis. Vivamus
+                            consequat bibendum ullamcorper.
+                        </p>
+                        <div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                    </div>
                 </div>
             </div>
         </article>
         <article class="gallery">
-            <img class="gallery__item" src="#" alt="">
-            <img class="gallery__item" src="#" alt="">
-            <img class="gallery__item" src="#" alt="">
-            <img class="gallery__item" src="#" alt="">
-            <img class="gallery__item" src="#" alt="">
+            <img class="gallery__item" src="img/gallery1.png" alt="">
+            <img class="gallery__item" src="img/gallery2.png" alt="">
+            <img class="gallery__item" src="img/gallery3.png" alt="">
+            <img class="gallery__item" src="img/gallery4.png" alt="">
+            <img class="gallery__item" src="img/gallery5.png" alt="">
         </article>
         <article class="price">
             <p class="price__subtitle">Pricing Table</p>
-            <h2 class="pricing__title">OUR MEMBERSHIP PLANS</h2>
+            <h2 class="price__title">OUR MEMBERSHIP PLANS</h2>
+            <div class="price__line"></div>
             <div class="price__items">
                 <div class="price__item">
                     <p class="price__item__number">$<span>10</span>/Day</p>
@@ -194,7 +194,7 @@
                     <a href="#" class="price__link">Book Now </a>
                 </div>
                 <div class="price__item">
-                    <p class="price__item__number">$<span>49</span>/month</p>
+                    <p class="price__item__number">$<span>49</span>/Month</p>
                     <p class="price__item__period">One Year Subscription</p>
                     <ul class="price__item__facilities">
                         <li>Access to all clubs</li>
@@ -207,7 +207,7 @@
                     <a href="#" class="price__link">Book Now </a>
                 </div>
                 <div class="price__item">
-                    <p class="price__item__number">$<span>65</span>/month</p>
+                    <p class="price__item__number">$<span>65</span>/Month</p>
                     <p class="price__item__period">One Month Subscription</p>
                     <ul class="price__item__facilities">
                         <li>Access to all clubs</li>
