@@ -31,7 +31,7 @@ a {
 
 .logo {
   display: inline-block;
-  width: 185px;
+  width: 200px;
   height: 44px;
   margin-top: 28px;
   margin-left: 390px;
@@ -609,7 +609,7 @@ a {
 
 /*footer*/
 .footer__items {
-  background-color: #222222;
+  background-color: black;
   display: flex;
 }
 
@@ -656,5 +656,18 @@ a {
 .footer__item__follows__link {
   margin-right: 15px;
   font-size: 25px;
+}
+
+.footer__item__title {
+  margin-top: 77px;
+  margin-bottom: 40px;
+}
+
+.footer__item__adress li {
+  color: white;
+  list-style: none;
+  font-size: 14px;
+  padding-top: 15px;
+  margin-left: 365px;
 }
 /*# sourceMappingURL=index.css.map */
