@@ -15,5 +15,10 @@
 }
 
 .header__search {
+    display: flex;
+    align-items: center;
+}
 
+.header__search-icon {
+    margin-right: 45px;
 }
