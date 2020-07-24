@@ -557,5 +557,71 @@ a.contact__link {
     }
 }
 
+//стилизация формы обратной связи
+
+ 
 
 
+.contact__form__title {
+    display: block;
+
+    text-align: center;
+    font-size: 4em;
+    font-weight: 600;
+    margin: 5rem 0;
+    @media screen and (max-width: 1200px){
+        font-size: 2.5em;
+    }  
+}
+
+form.contact__form__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 800px;
+    margin: 50px auto;
+    @media screen and (max-width: 1200px){
+        width: 100%;
+    }  
+    
+}
+
+label {
+    font-size: 2em;
+   
+    
+}
+
+.label__for__message {
+    margin-top: 50px;
+}
+
+.button__for__form {
+    margin-top: 30px;
+    font-size: 3em;
+    background-color: white;
+    color: #9b0000;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: 1px solid#9b0000;
+
+    &:hover {
+        background-color: #9b0000;
+        color: white;
+    }
+
+}
+
+footer {
+    background-color: #9b0000; 
+    height: 100px;
+}
+
+.footer__link {
+    display: block;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    
+}

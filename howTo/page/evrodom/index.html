@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/7f4db95764.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/index.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <title>Уютный Евродом</title>
 </head>
 
@@ -210,8 +210,33 @@
                         class="fab fa-vk"></i></a>
             </div>
         </div>
+        <div class="contact__form">
+
+            <p class="contact__form__title">Оставьте нам сообщение</p>
+            
+            <form class="contact__form__main"
+                action="https://formspree.io/xrgyrakn"
+                method="POST">
+                <label>
+                    Введите ваш e-mail:
+                    <input type="text" name="_replyto">
+                </label>
+                <label class="label__for__message">
+                    Введите ваше сообщение:
+                    <textarea name="message"></textarea>
+                </label>
+
+                <!-- your other form fields go here -->
+
+                <button class="button__for__form" type="submit">Отправить</button>
+            </form>
+
+        </div>
     </article>
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <footer>
+        <a href="https://andreysavchenkov.github.io/" class="footer__link">by Savchenkov Andrey (c) 2020</a>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script>
         var swiper = new Swiper('.swiper-container', {
       slidesPerView: 1,
