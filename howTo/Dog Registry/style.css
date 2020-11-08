@@ -29,6 +29,21 @@ button {
 }
 
 /*style for header*/
+.header{
+    position: relative;
+}
+
+.header__circle {
+    display: block;
+    position: absolute;
+    top: -550px;
+    left: -235px;
+    width: 650px;
+    height: 650px;
+    border: 1px solid #CFD8DC;
+    border-radius: 50%;
+    z-index: 0;
+}
 
 .nav {
     display: flex;
@@ -114,7 +129,37 @@ a.nav__item:hover {
 .header__img {
     margin-top: 73px;
     margin-left: 94px;
-
 }
+
+/*advantages*/
+
+.advantages__wrapper {
+    margin-top: 47px;
+    background-color: #F5F7F8;
+    height: 577px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.advantages__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.advantages__item {
+    text-align: center;
+}
+
+.advantages__text {
+    display: block;
+    width: 276px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
+
 
 
