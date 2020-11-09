@@ -161,6 +161,7 @@ a.nav__item:hover {
 /*works*/
 
 .work {
+    position: relative;
     background-color:  #3C5FAC;
     padding-bottom: 128px;
 }
@@ -214,14 +215,14 @@ a.nav__item:hover {
 
 .work__line {
     position: absolute;
-    top: 1670px;
-    left: 650px;
+    top: 300px;
+    left: 390px;
 }
 
 .work__line2 {
     position: absolute;
-    top: 1750px;
-    left: 1100px;
+    top: 370px;
+    left: 840px;
 }
 
 
