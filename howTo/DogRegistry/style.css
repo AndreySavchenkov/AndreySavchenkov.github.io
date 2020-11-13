@@ -227,6 +227,61 @@ a.nav__item:hover {
 
 /*registration*/
 
+.registration__title {
+    padding-top: 128px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.registration__wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px; 
+}
+
+.registration__items {
+    border: 1px solid #CFD8DC;
+    width: 260px;
+}
+
+.registration__text {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registration__text > span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.registration__img {
+    display: block;
+    margin: 0 auto;
+}
+
+.registration__item-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    margin-left: 24px;
+}
+
+.registration__item-text {
+    margin: 12px 24px 24px 24px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.registration__line {
+    border-bottom: 1px solid #CFD8DC;
+}
+
+
+
 
 
 
