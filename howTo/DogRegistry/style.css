@@ -227,6 +227,10 @@ a.nav__item:hover {
 
 /*registration*/
 
+.registration {
+    padding-bottom: 128px;
+}
+
 .registration__title {
     padding-top: 128px;
     font-weight: 600;
@@ -279,6 +283,181 @@ a.nav__item:hover {
 .registration__line {
     border-bottom: 1px solid #CFD8DC;
 }
+
+.registration__item-blue2,
+.registration__item-red2,
+.registration__item-green2 {
+    font-size: 16px;
+    height: 175px;
+    margin: 24px;
+    line-height: 20px;
+}
+
+.registration__item-blue3,
+.registration__item-red3,
+.registration__item-green3 {
+    margin: 24px;
+    font-size: 16px;
+    line-height: 20px;
+    height: 38px;
+}
+
+.registration__item-blue4,
+.registration__item-red4,
+.registration__item-green4 {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 24px;
+}
+
+.registration__item-blue5,
+.registration__item-red5,
+.registration__item-green5 {
+    height: 50px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.registration__item-blue6,
+.registration__item-red6,
+.registration__item-green6 {
+    height: 56px;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.registration__item-blue7 img,
+.registration__item-red7 img,
+.registration__item-green7 img {
+    display: block;
+    margin-top: 20px;
+}
+
+.registration__item-blue7,
+.registration__item-red7,
+.registration__item-green7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.registration__button {
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #3C5FAC;
+    border-radius: 94px;
+    width: 160px;
+    height: 56px;
+    color: #ffffff;
+}
+
+.registration__item-green7 button {
+    margin-top: 40px;
+}
+
+.registration__name1 {
+    margin-top: 450px;
+}
+
+.registration__name2 {
+    margin-top: 150px;
+}
+
+.registration__name3 {
+    margin-top: 55px;
+}
+
+.registration__name4 {
+    margin-top: 55px;
+}
+
+.registration__name5 {
+    margin-top: 50px;
+}
+
+.registration__name6 {
+    margin-top: 70px;
+}
+
+/*certificate style*/
+
+.certificate {
+    background: #F5F7F8;
+    display: flex;
+    flex-direction: column;
+}
+
+.certificate__name {
+    display: flex;
+}
+
+.certificate__title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+    padding-left: 103px;
+    padding-top: 123px;
+    
+}
+
+.certificate__text {
+    margin-left: 103px;
+    padding-top: 16px;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.certificate__button {
+    margin-left: 103px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #3C5FAC;
+    border-radius: 94px;
+    width: 160px;
+    height: 56px;
+    color: #ffffff;
+}
+
+.certification__name {
+    margin-top: 250px;
+    margin-left: 350px;
+}
+
+.certificate__items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.certificate__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 78px
+}
+
+.certificate__item span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.certificate__item p {
+   width: 212px;
+   text-align: center;
+   font-size: 16px;
+   line-height: 20px;
+   margin-top: 12px;
+   padding-bottom: 100px;
+}
+
+
+
 
 
 
