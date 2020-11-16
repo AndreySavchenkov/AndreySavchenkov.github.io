@@ -508,6 +508,60 @@ a.nav__item:hover {
     margin-bottom: 128px;
 }
 
+/*choose*/
+
+.choose {
+    background: #3C5FAC;
+    padding-bottom: 128px;
+    padding-top: 128px;
+}
+
+.choose__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.choose__text {
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 16px;
+}
+
+.choose__wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.choose__img-wrapper {
+    padding-top: 60px;
+}
+
+.choose__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.choose__text-wrapper > li {
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 600;
+    padding: 20px;
+    border-left: 4px solid #ECEFF7;
+}
+
+.choose__text-wrapper > li:hover {
+    border-left: 6px solid #ffffff;
+}
+
 
 
 
