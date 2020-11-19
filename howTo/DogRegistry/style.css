@@ -562,6 +562,46 @@ a.nav__item:hover {
     border-left: 6px solid #ffffff;
 }
 
+/*fluing*/
+
+.fluing {
+    display: flex;
+    background: #F5F7F8;
+    padding-bottom: 128px;
+}
+
+.fluing__text-title {
+    margin-top: 128px;
+    margin-left: 103px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.fluing__text-subtext {
+    margin-top: 16px;
+    margin-left: 103px;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.fluing__button {
+    margin-top: 24px;
+    margin-left: 103px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #3C5FAC;
+    border-radius: 94px;
+    width: 160px;
+    height: 56px;
+    color: #ffffff;
+}
+
+.fluing__img{
+    margin-top: 159px;
+    margin-left: 100px;
+}
 
 
 
