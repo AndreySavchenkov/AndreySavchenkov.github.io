@@ -1,7 +1,15 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 body {
     font-family: 'Muli', sans-serif;
@@ -22,6 +30,7 @@ a {
 /*стилизация навигации*/
 
 nav {
+    position: -webkit-sticky;
     position: sticky;
     top: 0px;
     height: 80px;
@@ -47,13 +56,16 @@ nav li {
 nav a{
     color: white;
     font-size: 18px;
-    text-decoration:uppercase;
+    -webkit-text-decoration:uppercase;
+            text-decoration:uppercase;
     border: 1px solid transparent;
     padding: 7px 10px;
     border-radius: 3px;
 }
 a.active,a:hover{
     border: 1px solid white;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
 }
 nav #icon{
@@ -110,6 +122,8 @@ header {
     padding-bottom: 20px;
 }
 article {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 article img {
@@ -198,6 +212,8 @@ footer > p {
         top: 70px;
         left: -100%;
         text-align: center;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
         transition: all .5s;
     }
     nav li{
@@ -234,7 +250,10 @@ footer > p {
         width: 100%;
     }
     article {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         padding: 0 10px;
 
     }
@@ -260,4 +279,3 @@ footer > p {
         font-size: 20px;
     }
 }
-
