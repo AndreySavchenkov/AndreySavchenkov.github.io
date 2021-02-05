@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 460px;
+    height: 920px;
+    max-width: 1440px;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+}
+
+h1  {
+    font-size: 64px;
+    font-weight: 300;
+    color: white;
+    
+    padding-left: 10px;
+}
+
+p {
+    font-size: 24px;
+    font-style: italic;
+    color: white;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.color-box {
+    
+    background-color: rgba(0, 0, 0, 0.205);
+    width: 550px;
+    height: 220px;
+    margin-left: 75px;
+}
+
+.button {
+    display: block;
+    margin-top: 100px;
+    width: 200px;
+    border: solid 2px white;
+    font-size: 36px;
+    padding: 0.5em 2em;
+    border-radius: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #21D7E2;
+    margin-left: 75px;
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #21D7E2;
+    background: white;
+    border: solid 2px #21D7E2;
+}
+
+.menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .button {
+        margin: 100px auto;
+    }
+
+    .color-box {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 560px) {
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .button {
+        font-size: 24px;
+        width: 150px;
+    }
+}
