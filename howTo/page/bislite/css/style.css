@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+*,*::before, *::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: #000;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background-color: #e8ebf1;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo a {
+    color: #2aacc8;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.header__logo a span {
+    font-weight: 900;
+    color: #000;
+}
