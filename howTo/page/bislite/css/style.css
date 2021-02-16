@@ -141,7 +141,7 @@ li {
 
 .slider {
     background-color: #81e4ed;
-    padding: 20px 0px 40px;
+    padding: 20px 0px 10px;
 }
 .slider__item {
     background-image: url(../images/slider-bg.jpg);
@@ -158,4 +158,24 @@ li {
     font-weight: 700;
     padding-top: 90px;
 }
+.slick-dots li.slick-active button {
+    background-color: #fff;
+}
+.slick-dots li button:before {
+    display: none;
+}
+.slick-dots li button {
+    width: 14px;
+    height: 14px;
+    background-color: rgba(98,98,98, .5);
+    border-radius: 50%;
+    
+}
+.slick-dots li{
+    margin: 0 9px;
+    width: auto;
+    height: auto;
+}
+
+
 
