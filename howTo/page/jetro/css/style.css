@@ -56,3 +56,40 @@ a {
     color: #e8663c;
     transition: all .5s;
 }
+
+/*slider*/
+
+.slider__item {
+    min-height: 400px;
+    background-image: url(../images/slider_bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 245px;
+    padding-left: 30px;
+}
+
+.slider__box-text {
+    width: 412px;
+    background-color: rgba(232, 102, 60, .8);
+    padding: 20px 30px 25px 20px;
+}
+.slider__title {
+    font-family: serif;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: #fff;
+    text-transform: lowercase;
+}
+.slider__subtitle {
+    padding-top: 25px;
+    font-size: 12px;
+    color: #fff;
+    font-family: Helvetica,sans-serif;
+}
+.slider-nav__item {
+    width: 140px;
+    height: 120px;
+    background-image: url(../images/slider_bg.jpg);
+}
