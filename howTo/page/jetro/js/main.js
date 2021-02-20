@@ -2,7 +2,7 @@ $(function(){
     $('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
+        arrows: true,
         fade: true,
         asNavFor: '.slider-nav'
       });
@@ -10,7 +10,8 @@ $(function(){
         slidesToShow: 3,
         slidesToScroll: 1,
         asNavFor: '.slider-for',
-        dots: true,
+        dots: false,
+        arrows: false,
         centerMode: true,
         focusOnSelect: true
       });
