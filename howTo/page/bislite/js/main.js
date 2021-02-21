@@ -6,6 +6,15 @@ $(function(){
         dots: true,
     });
 
+    $('.works__inner').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        prevArrow: '',
+        nextArrow: '',
+    })
+
 
   });
+
+
           
