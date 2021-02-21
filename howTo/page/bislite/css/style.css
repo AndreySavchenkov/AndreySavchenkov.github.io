@@ -6,6 +6,7 @@ html {
 }
 body {
     font-family: 'Lato', sans-serif;
+    line-height: 20px;
 }
 
 a {
@@ -88,6 +89,7 @@ li {
     height: 0;
     overflow: hidden;
     opacity: 0;
+    z-index: 1;
     
 }
 .header__drop-down .drop-down__list li {
@@ -152,6 +154,7 @@ li {
 }
 .slider__item-title {
     font-size: 50px;
+    line-height: 55px;
     color: #fff;
     width: 300px;
     margin-left: 60px;
@@ -177,5 +180,63 @@ li {
     height: auto;
 }
 
+/*items*/
+.items {
+    background-color: #e8edf1;
+    padding: 60px 0px 50px;
+    border: 1px solid #d9d9d9;
+}
+.items__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    width: 225px;
+    font-family: 'Arial', sans-serif;
+}
+.item__title{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-left: 60px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.item-icons{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #2aacc8;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.telegramm-icons{
+    margin-left: 5px;
+}
+.item__text{
+font-size: 13px;
+color: #363636;
+margin-bottom: 25px;
+}
+.item__link{
+    color: #2aacc8;
+    padding-left: 15px;
+    font-size: 13px;
+    position: relative;
+}
 
+.item__link::before{
+    content: '';
+    position: absolute;
+    background-image: url(../images/icons/item-4.svg);
+    left: 0;
+    top: 5px;
+    width: 5px;
+    height: 7px;
+}
 
