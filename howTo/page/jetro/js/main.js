@@ -3,6 +3,8 @@ $(function(){
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: true,
+        nextArrow: '<button type="button" class="slick-next"><img src="../images/right.svg" alt=""></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="../images/left.svg" alt=""></button>',
         fade: true,
         asNavFor: '.slider-nav'
       });
