@@ -194,3 +194,61 @@ a {
     color: white;
     padding: 10px 15px;
 }
+
+/*works*/
+
+.works{
+    margin-bottom: 50px;
+}
+.works__title{
+    font-family: 'Bebas', cursive;
+    font-size: 18px;
+    color: #e8663c;
+    margin-bottom: 26px;
+    background-color: #f0f0f0;
+}
+.works__items{
+    display: flex;
+    justify-content: space-between;
+}
+.works__item{
+    width: 220px;
+}
+.item__img{
+    height: 185px;
+    background-repeat: no-repeat;
+}
+.item__img1{
+    background-image: url(../images/works/img-1.jpg);
+}
+.item__img2{
+    background-image: url(../images/works/img-2.jpg);
+}
+.item__img3{
+    background-image: url(../images/works/img-3.jpg);
+}
+.item__img4{
+    background-image: url(../images/works/img-4.jpg);
+}
+.item__text{
+    border-right: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;
+    padding: 15px 0px 15px 15px;
+}
+.item__title{
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #b9b9b9;
+}
+.item__subtitle{
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #e8663c;
+}
