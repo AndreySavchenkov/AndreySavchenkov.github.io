@@ -142,6 +142,20 @@ li {
 
 }
 
+/*menu for mobile version*/
+
+.header__menu-btn{
+    width: 30px;
+    display: none;
+}
+
+.header__menu-row{
+    width: 100%;
+    background-color: #000;
+    height: 4px;
+    margin-bottom: 4px;
+}
+
 /*slider*/
 
 .slider {
@@ -474,4 +488,8 @@ margin-bottom: 25px;
     max-width: 650px;
     color: #363636;
 }
+
+/*adaptiv layaut*/
+
+
   
