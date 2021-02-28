@@ -14,7 +14,7 @@ a {
 }
 
 .container {
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -34,6 +34,7 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
 .header__logo {
     font-size: 36px;
     font-weight: 400;
@@ -43,6 +44,19 @@ a {
 .header__logo span {
     color: #f3af9d;
 }
+
+.header__menu-row{
+    width: 30px;
+    height: 4px;
+    background-color: #b9b9b9;
+    margin-top: 4px;
+}
+.header__menu-btn{
+    display: none;
+}
+
+
+
 .header__nav li {
     display: inline-block;
     font-size: 16px;
