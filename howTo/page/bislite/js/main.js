@@ -11,6 +11,28 @@ $(function(){
         slidesToScroll: 1,
         prevArrow: '<button class="slick-arrow slick-prev"><img src="images/slider/slide-left1.svg" alt=""></button>',
         nextArrow: '<button class="slick-arrow slick-next"><img src="images/slider/slide-right.svg" alt=""></button>',
+        responsive: [
+            {
+              breakpoint: 911,
+              settings: {
+                slidesToShow: 3,
+              }
+            },
+            {
+                breakpoint: 680,
+                settings: {
+                  slidesToShow: 2,
+                }
+              },
+            {
+            breakpoint: 455,
+            settings: {
+                slidesToShow: 1,
+            }
+            },
+            
+        ]
+            
     })
 
     $('.header__menu-btn').on('click', function(){
