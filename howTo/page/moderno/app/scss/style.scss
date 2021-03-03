@@ -1,8 +1,23 @@
-html{
-    box-sizing: border-box;
+@import '_vars';
+@import '_global';
+@import '_fonts';
+
+
+/*header*/
+
+.header__top-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
 }
-*,
-*::before,
-*::after{
-    box-sizing: inherit;
+.header__text{
+    margin-left: auto;
+    margin-right: 25px;
+    span{
+        color: $red;
+    }
+}
+.header__btn{
+    
 }
