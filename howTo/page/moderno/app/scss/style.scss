@@ -393,10 +393,114 @@
         color: $bg;
     }
 }
-  
 
+/*footer*/
 
-
-
+.footer{
+    background-color: $bg;
+    &__inner{
+        padding: 100px 0px 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.footer__copy{
+    border-top: 1px solid #424d53;
+}
+.footer__copy-text{
+    text-align: center;
+    font-size: 15px;
+    color: #919699;
+    padding: 25px 0px 25px;
+}
+.footer__coll{
+    max-width: 270px;
+    &-title{
+        font-size: 22px;
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            height: 3px;
+            width: 51px;
+            background-color: $green;
+            bottom: 0;
+            left: 2px;
+        }
+    }
+    &-menu{
+        max-width: 220px;
+    }
+    &-text{
+        color: #b7c3c8;
+        margin-bottom: 30px;
+    }
+}
+.footer__info{
+    margin-top: 18px;
+    color: #fff;
+    @include f500;
+    padding-left: 30px;
+    position: relative;
+    &::before{
+        content: '\f041';
+        font-family: 'icomoon';
+        color: $green;
+        font-size: 18px;
+        position: absolute;
+        left: 0;
+    }
+    &-phone::before{
+        content: '\f095';
+    }
+}
+.footer__coll-list{
+    a{
+        margin-bottom: 13px;
+        color: #b7c3c8;
+        padding-left: 22px;
+        position: relative;
+        &::before{
+            content: '\f105';
+            color: $green;
+            font-size: 18px;
+            font-family: 'icomoon';
+            position: absolute;
+            left: 0;
+        }
+    }
+}
+.footer__social-link{
+    margin-bottom: 33px;
+    li{
+        display: inline-block;
+        & + li{
+            margin-left: 7px;
+        }
+    }
+    a{
+        width: 28px;
+        height: 28px;
+        background-image: url(../images/content/css_sprites.png);
+       
+    }
+}
+.link-facebook{
+    background-position: -28px -0;
+}
+.link-twitter{
+    background-position: -0 -28px;
+}
+.link-pinterest{
+    background-position: -28px -28px;
+}
+.link-linkedink{
+    background-position: -56px -0;
+}
 
   
