@@ -101,7 +101,7 @@
 }
 .message{
     span{
-        background-color: $orange;
+        background-color: $tomato;
     }
 }
 .basket{
@@ -195,21 +195,39 @@
     margin-top: 54px;
     margin-left: 15px;
     &:hover{
+        .header__circle::before{
+            color: $bg;
+        }
         .circle__menu{
-            overflow: auto;
+            overflow: hidden;
             height: auto;
     
+        }
+        .circle__item{
+            padding:23px;
+            border-width: 1px;
         }
     }
 }
 .circle__item{
     background-color: #fff;
-    padding: 23px;
-    border: 1px solid #e0e0e0;
+    padding:0 23px;
+    border: 0px solid #e0e0e0;
+    border-left-width: 1px;
+    border-right-width: 1px;
     border-top: none;
     display: flex;
     align-items: center;
     width: 269px;
+    position: relative;
+    transition: all .3s;
+    &::before{
+        position: absolute;
+        top: 27px;
+        right: 28px;
+        color: #b0bec5;
+        font-size: 16px;
+    }
 }
 .circle__images{
     margin-right: 15px;
@@ -230,6 +248,9 @@
 .circle__info-date{
     font-size: 10px;
     color: #707070;
+}
+.icons-color::before{
+    color: $tomato;
 }
 .basket__summ{
     background-color: #fff;
