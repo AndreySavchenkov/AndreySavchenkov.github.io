@@ -1,0 +1,13 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+a{
+    color: #000000;
+    outline: none;
+    text-decoration: none;
+}
